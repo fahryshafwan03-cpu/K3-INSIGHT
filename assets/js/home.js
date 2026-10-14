@@ -1,0 +1,1 @@
+const cards=document.getElementById('homeCards');cards.innerHTML=K3Materials.slice(0,4).map(m=>`<a class="card" href="pages/materi/detail.html?id=${m.id}"><img loading="lazy" src="${k3Image(m)}" alt="${m.title}"><div class="card-body"><h3>${m.icon} ${m.title}</h3><p>${m.desc}</p><span class="textlink">Pelajari →</span></div></a>`).join('');
